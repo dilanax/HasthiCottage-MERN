@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Debugger files
+.vscode/
+.idea/
+
+# Production builds (optional, if any)
+dist/
+build/
+
+# Dependency lock (optional, if using yarn only)
+package-lock.json
+yarn.lock
+
+# Coverage reports (if using test tools like Jest)
+coverage/
+
+# MongoDB dump files
+dump/
+
+# PM2 logs
+pids
+*.pid
+*.seed
+
+# Local data
+*.local
+
+# Optional: Ignore uploads if stored locally
+uploads/
