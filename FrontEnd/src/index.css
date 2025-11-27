@@ -1,0 +1,76 @@
+/* src/index.css */
+
+/* Tailwind CSS base styles */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Merriweather:wght@300;400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --yellow: #d3af37;
+  --black: #0a0a0a;
+  --white: #f0f0f0;
+  --primary-bg: #f0f0f0; /* Light background - 60% */
+  --secondary-accent: #d3af37; /* Gold accent - 30% */
+  --tertiary-text: #0a0a0a; /* Dark text - 10% */
+  --font-amatic: 'Amatic SC';
+  --font-merriweather: 'Merriweather', serif;
+  
+  /* Theme colors from image */
+  --theme-background: #f0f0f0;
+  --theme-button: #d3af37;
+  --theme-text: #0a0a0a;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+  background-color: var(--primary-bg);
+  color: var(--tertiary-text);
+  font-family: var(--font-merriweather);
+}
+
+h1, h2 {
+  font-family: var(--font-amatic);
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif; /* Google Font of your choice */
+  text-transform: capitalize;        /* Capitalizes first letter of each word */
+}
+
+/* Apply general page spacing */
+.page-container {
+  padding: 2rem;
+}
+
+.room-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  background-color: rgba(211, 175, 55, 0.1);
+}
+/* Booking-like card styles */
+.bk-card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:16px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.bk-card__title{font-weight:700;margin-bottom:8px}
+.bk-list{list-style:none;padding:0;margin:0}
+.bk-list__item{display:flex;gap:8px;align-items:flex-start;margin:6px 0}
+.bk-strong{font-weight:700}
+.bk-sub{font-size:12px;color:#6b7280}
+.bk-row{display:flex;gap:8px;align-items:flex-start}
+.bk-section{margin-top:8px}
+.bk-chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.bk-chip{background:#e5eefc;color:#0b57d0;padding:4px 8px;border-radius:999px;font-size:12px;font-weight:700}
+.bk-chip:nth-child(1){background:#e7f5ee;color:#0f766e}
+.bk-priceBlock{margin-top:10px}
+.bk-small{font-size:12px;color:#374151}
+.bk-priceRow{display:flex;align-items:center;gap:10px;margin:4px 0}
+.bk-price--strike{text-decoration:line-through;color:#ef4444;font-weight:800}
+.bk-price{font-size:22px;font-weight:800}
+.bk-info{font-size:14px;color:#6b7280}
+.bk-btn{width:100%;background:#2563eb;color:#fff;border:none;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+.bk-btn:hover{filter:brightness(.95)}
+.bk-cup{font-size:18px;margin-right:6px}

@@ -1,0 +1,45 @@
+{
+  "name": "safari-cottage-hotel",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^4.0.2",
+    "@stripe/stripe-js": "^7.9.0",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "country-flag-icons": "^1.5.21",
+    "dayjs": "^1.11.18",
+    "framer-motion": "^12.23.18",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2",
+    "lucide-react": "^0.544.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-phone-number-input": "^3.4.12",
+    "react-router-dom": "^7.9.1",
+    "recharts": "^3.2.1",
+    "sweetalert2": "^11.26.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.4.5"
+  }
+}
